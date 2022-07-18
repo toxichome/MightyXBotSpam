@@ -11,7 +11,7 @@ MIG_IMG = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/ff1a85057ef19a2e9
 
 Mig_Button = [
         [
-        Button.url("✨ DEAD ✨", "https://t.me/")
+        Button.url("✨ DEAD ✨", "https://telegra.ph/file/fced3cbeb847a270d3be9.jpg")
         ],
         [
         Button.inline("⚡ ᴄᴏᴍᴍᴀɴᴅs ⚡", data="help_back")
@@ -20,8 +20,8 @@ Mig_Button = [
                
 MigX_Button = [
         [
-        Button.url("✨ DUMB ✨", "https://t.me/"),
-        Button.url("✨ VENOM ✨", "https://t.me/")
+        Button.url("✨ DUMB ✨", "https://telegra.ph/file/fced3cbeb847a270d3be9.jpg"),
+        Button.url("✨ VENOM ✨", "https://telegra.ph/file/fced3cbeb847a270d3be9.jpg")
         ],
         [
         Button.url("🔥YM 🔥", "")
