@@ -40,8 +40,8 @@ async def logs(legend):
         await asyncio.sleep(1)
         await fetch.delete()
         logfile = open("BotSpamLogs.txt", "w")
-        logfile.write("⚡ Mighty X Spam ⚡ [ BotSpam Logs ]\n\n" + logs)
+        logfile.write("⚡ GOD ⚡ [ BotSpam Logs ]\n\n" + logs)
         logfile.close()
-        await Mig.send_file(legend.chat_id, "BotSpamLogs.txt", caption=f"⚡ 𝐌𝐢𝐠𝐡𝐭𝐲 𝐗 𝐒𝐩𝐚𝐦 𝐋𝐨𝐠𝐬 ⚡\n**Time Taken :** `{ms} Seconds`")
+        await Mig.send_file(legend.chat_id, "BotSpamLogs.txt", caption=f"⚡ GOD ⚡\n**Time Taken :** `{ms} Seconds`")
     else:
         await legend.reply("Sorry, Only Owner Can Access This Command.")
