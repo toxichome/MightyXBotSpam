@@ -5,9 +5,9 @@ from time import time
 from datetime import datetime
 from MightyXSpam import CMD_HNDLR as hl
     
-HELP_PIC = "https://telegra.ph/file/38eae16b57a0c2d039423.jpg"
+HELP_PIC = "https://telegra.ph/file/7e410e1ccaec5c47ef6e1.jpg"
 
-Mig_Help = "★ 𝙈𝙞𝙜𝙝𝙩𝙮𝙓𝙎𝙥𝙖𝙢 𝙃𝙚𝙡𝙥 𝙈𝙚𝙣𝙪 ★\n𝐂𝐥𝐢𝐜𝐤 𝐎𝐧 𝐁𝐞𝐥𝐨𝐰 𝐁𝐮𝐭𝐭𝐨𝐧𝐬 𝐅𝐨𝐫 𝐇𝐞𝐥𝐩"
+Mig_Help = "★  𝙃𝙚𝙡𝙥 𝙈𝙚𝙣𝙪 ★\n𝐂𝐥𝐢𝐜𝐤 𝐎𝐧 𝐁𝐞𝐥𝐨𝐰 𝐁𝐮𝐭𝐭𝐨𝐧𝐬 𝐅𝐨𝐫 𝐇𝐞𝐥𝐩"
 
 
 @Mig.on(events.NewMessage(incoming=True, pattern=r"\%shelp(?: |$)(.*)" % hl))
@@ -31,13 +31,13 @@ async def help(event):
             Button.inline("😈 Raid 😈", data="raid"),
            ],
            [
-            Button.inline("⚡ Extra ⚡", data="extra"),
+            Button.inline("⚡ YM ⚡", data="extra"),
            ],
            [    
-            Button.url("✨ ᴄʜᴀɴɴᴇʟ ✨", "https://t.me/MightyXUpdates")
+            Button.url("✨ DUMB ✨", "https://telegra.ph/file/fced3cbeb847a270d3be9.jpg")
            ],
            [
-           Button.url("✨ sᴜᴘᴘᴏʀᴛ ✨", "https://t.me/MightyXSupport")
+           Button.url("✨ DEAD ✨", "https://telegra.ph/file/fced3cbeb847a270d3be9.jpg")
            ],
            ],
            )              
@@ -68,7 +68,7 @@ Command :
 **PackSpam :** Sticker Pack Spam
 1) {hl}packspam <reply to any sticker>
 
-**© @MightyXSpam**
+**© GOD **
 """
 
                  
@@ -97,7 +97,7 @@ Command :
 2) {hl}dreplyraid <username>
 
 
-**© @MightyXSpam**
+**© GOD **
 """
 
 spam_msg = f"""
@@ -126,7 +126,7 @@ Command :
 Command :
 1) {hl}hang <counter> (you can reply any message if you want bot to reply that message and do spamming)
 
-** © @MightyXSpam**
+** © GOD **
 """                     
            
            
@@ -150,19 +150,19 @@ async def helpback(event):
             Button.inline("😈 Raid 😈", data="raid"),
            ],
            [
-            Button.inline("⚡ Extra ⚡", data="extra"),
+            Button.inline("⚡ YM ⚡", data="extra"),
            ],
            [    
-            Button.url("✨ ᴄʜᴀɴɴᴇʟ ✨", "https://t.me/MightyXUpdates")
+            Button.url("✨ DUMB ✨", "https://telegra.ph/file/fced3cbeb847a270d3be9.jpg")
            ],
            [
-           Button.url("✨ sᴜᴘᴘᴏʀᴛ ✨", "https://t.me/MightyXSupport")
+           Button.url("✨ DEAD✨", "https://telegra.ph/file/fced3cbeb847a270d3be9.jpg")
            ],
            ],
         )           
    else:
         Alert = (
-                "Noob !! Make Your Own Mighty X Spam Bots !! @MightyXSpam"
+                "Noob !! Make Your Own Bots IN HELL !! "
             )
         await event.answer(Alert, cache_time=0, alert=True)
       
@@ -190,7 +190,7 @@ async def help_spam(event):
             ) 
    else:
         Alert = (
-                "Noob !! Make Your Own Mighty X Spam Bots !! @MightyXSpam"
+                "Noob !! Make Your Own IN HELL !! "
             )
         await event.answer(Alert, cache_time=0, alert=True)
                  
@@ -217,7 +217,7 @@ async def help_raid(event):
             )  
      else:
         Alert = (
-                "Noob !! Make Your Own Mighty X Spam Bots !! @MightyXSpam"
+                "Noob !! Make Your Own IN HELL  !! "
             )
         await event.answer(Alert, cache_time=0, alert=True)
        
@@ -245,6 +245,6 @@ async def help_extra(event):
             )
    else:
         Alert = (
-                "Noob !! Make Your Own Mighty X Spam Bots !! @MightyXSpam"
+                "Noob !! Make Your Own IN HELL  !! "
             )
         await event.answer(Alert, cache_time=0, alert=True)
